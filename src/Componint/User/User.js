@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Api from '../Api/Api'
 import Display from '../Api/Display/Display';
 const User = () => {
-    const[user,setUser]=useState(Api)
+    const[user,setUser]=useState(Api);
     const [teem,setTeem]=useState([]);
     console.log(user)
     const addMember=(name)=>{

@@ -7,6 +7,7 @@ const Display = (props) => {
     const showPhone=()=>setMobile(phone);
     return (
         <div className='display'>
+          
             <div className='displayImg'>
                <img style={{width:'200px'}} src={image} alt=""/> 
             </div>
